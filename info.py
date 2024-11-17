@@ -21,11 +21,11 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7239621852:AAE0uPq3S5wMTVupcoH7i-omIa8HHK7
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Shammas") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/CinemaKandalo')
+MOVIE_qe woodrowGROUP = environ.get('MOVIE GROUP', 'https://t.me/CinemaKandalo')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbots.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shammas:shammas@cluster0.hdjsx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ck_files')
 #---------------------------------------------------------------
